@@ -4,10 +4,13 @@ let currentTheme = "red";
 function changeTheme() {
     const theme = document.getElementById("themeStylesheet");
 
-    if (currentTheme === "red") {
+    if (currentTheme === "red") 
+    {
         theme.href = "green.css";
         currentTheme = "green";
-    } else {
+    } 
+    else 
+    {
         theme.href = "red.css";
         currentTheme = "red";
     }
@@ -16,9 +19,12 @@ function changeTheme() {
 function toggleSection() {
     const section = document.getElementById("umiejętności");
 
-    if (section.style.display === "none") {
+    if (section.style.display === "none") 
+    {
         section.style.display = "block";
-    } else {
+    } 
+    else 
+    {
         section.style.display = "none";
     }
 }
