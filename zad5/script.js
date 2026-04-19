@@ -29,8 +29,7 @@ function toggleSection() {
     }
 }
 
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
+document.getElementById('contactForm').addEventListener('submit', function(e) { e.preventDefault();
 
     let valid = true;
 
@@ -47,7 +46,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     if (!firstName) {
         document.getElementById('firstNameError').textContent = 'Podaj imię';
         valid = false;
-    } else if (!nameValid.test(firstName)) {
+    }
+    else if (!nameValid.test(firstName)) {
         document.getElementById('firstNameError').textContent = 'Imię nie może zawierać cyfr';
         valid = false;
     }
@@ -55,7 +55,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     if (!lastName) {
         document.getElementById('lastNameError').textContent = 'Podaj nazwisko';
         valid = false;
-    } else if (!nameValid.test(lastName)) {
+    }
+    else if (!nameValid.test(lastName)) {
         document.getElementById('lastNameError').textContent = 'Nazwisko nie może zawierać cyfr';
         valid = false;
     }
@@ -63,7 +64,8 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     if (!email) {
         document.getElementById('emailError').textContent = 'Podaj e-mail';
         valid = false;
-    } else if (!emailValid.test(email)) {
+    }
+    else if (!emailValid.test(email)) {
         document.getElementById('emailError').textContent = 'Niepoprawny e-mail';
         valid = false;
     }
