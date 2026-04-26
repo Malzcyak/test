@@ -90,7 +90,7 @@ fetch('./data.json')
         data.umiejetnosci.forEach(skill => {
             const li = document.createElement('li');
             li.textContent = skill;
-            skillsList.appendChild(li);
+            umiejetnosciList.appendChild(li);
         });
 
         const projektyList = document.getElementById('projektyList');
@@ -98,7 +98,7 @@ fetch('./data.json')
         data.projekty.forEach(project => {
             const li = document.createElement('li');
             li.textContent = project;
-            projectsList.appendChild(li);
+            projektyList.appendChild(li);
         });
 
     });
