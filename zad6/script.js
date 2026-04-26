@@ -85,20 +85,20 @@ fetch('./data.json')
     .then(response => response.json())
     .then(data => {
 
-        const umiejetnosciList = document.getElementById('umiejetnosciList');
+        const skillsList = document.getElementById('skillsList');
 
         data.umiejetnosci.forEach(skill => {
             const li = document.createElement('li');
             li.textContent = skill;
-            umiejetnosciList.appendChild(li);
+            skillsList.appendChild(li);
         });
 
-        const projektyList = document.getElementById('projektyList');
+        const projectsList = document.getElementById('projectsList');
 
         data.projekty.forEach(project => {
             const li = document.createElement('li');
             li.textContent = project;
-            projektyList.appendChild(li);
+            projectsList.appendChild(li);
         });
 
     });
