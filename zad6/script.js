@@ -85,7 +85,7 @@ fetch('./data.json')
     .then(response => response.json())
     .then(data => {
 
-        const umiejetnościList = document.getElementById('UmiejetnościList');
+        const skillsList = document.getElementById('skillsList');
 
         data.umiejetnosci.forEach(skill => {
             const li = document.createElement('li');
@@ -93,7 +93,7 @@ fetch('./data.json')
             skillsList.appendChild(li);
         });
 
-        const projektyList = document.getElementById('ProjektyList');
+        const projectsList = document.getElementById('projectsList');
 
         data.projekty.forEach(project => {
             const li = document.createElement('li');
