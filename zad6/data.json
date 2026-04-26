@@ -1,0 +1,14 @@
+{
+  "umiejetnosci": [
+    "HTML",
+    "C#",
+    "Git",
+    "Terminal",
+    "Logiczne myślenie",
+    "Angielski B1"
+  ],
+  "projekty": [
+    "Strona CV w HTML",
+    "Symulator bankomatu (C#)"
+  ]
+}
