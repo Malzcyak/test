@@ -81,7 +81,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) { 
     }
 });
 
-fetch('data.json')
+fetch('./data.json')
     .then(response => response.json())
     .then(data => {
 
