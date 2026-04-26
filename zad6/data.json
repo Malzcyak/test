@@ -1,0 +1,22 @@
+/* 77052 */
+{
+  "kontakt": {
+    "email": "pma.edu.pl",
+    "telefon": "+48 000 000 000",
+    "miasto": "Warszawa",
+    "github": "https://github.com/77052",
+    "linkedin": "https://www.linkedin.com/"
+  },
+  "umiejetnosci": [
+    "HTML",
+    "C#",
+    "Git",
+    "Terminal",
+    "Logiczne myślenie",
+    "Angielski B1"
+  ],
+  "projekty": [
+    "Strona CV w HTML",
+    "Symulator bankomatu (C#)"
+  ]
+}
